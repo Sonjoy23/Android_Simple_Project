@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#00BCD4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        >
+        <Button
+            android:id="@+id/b1"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/b2"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/b3"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/b4"
+            android:onClick="check"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/b5"
+            android:onClick="check"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/b6"
+            android:onClick="check"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:id="@+id/b7"
+            android:onClick="check"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:onClick="check" />
+        <Button
+            android:id="@+id/b9"
+            android:onClick="check"
+            android:layout_marginTop="15dp"/>
+
+
+    </GridLayout>
+
+
+</LinearLayout>

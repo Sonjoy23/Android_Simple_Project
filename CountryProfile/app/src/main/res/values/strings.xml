@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CountryProfile</string>
+    <string name="bangladesh_button">Bangladesh</string>
+    <string name="india_button">India</string>
+    <string name="pakistan_button">Pakistan</string>
+    <string name="bangladesh_history">
+        The history of Bangladesh as a civilized nation goes back for more than four millennia to the Chalcolithic./n
+        The country early recorded history is characterized by a succession of Hindu and Buddhist kingdoms and empires that
+        fought for control of the Bengal region.
+    </string>
+    <string name="india_history">
+        India has a unique culture and is one of the oldest and greatest civilizations of the world. \n
+        It stretches from the snow-capped Himalayas in the North to the Sun drenched coastal villages of the South. In this section,/n
+        you will certainly get the best glimpse of this great country.
+    </string>
+    <string name="pakistan_history">
+
+        Spurred by the Pakistan Movement, which sought a homeland for the Muslims of British India,\n
+        and election victories in 1946 by the All-India Muslim League, \n
+        Pakistan gained independence in 1947 after the Partition of the British Indian Empire,\n
+        which awarded separate statehood to its Muslim-majority regions and was
+    </string>
+</resources>
