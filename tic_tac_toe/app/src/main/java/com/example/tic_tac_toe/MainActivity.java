@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 countText.setText("Start Count");
+                xNumber=0;
+                oNumber=0;
                 newGame();
             }
         });
