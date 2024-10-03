@@ -6,53 +6,90 @@
     android:background="#00BCD4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     tools:context=".MainActivity">
-    <GridLayout
+    <LinearLayout
         android:layout_width="wrap_content"
+        android:layout_marginLeft="55dp"
         android:layout_height="wrap_content"
-        android:rowCount="3"
-        android:columnCount="3"
-        >
-        <Button
-            android:id="@+id/b1"
-            android:onClick="check"/>
-        <Button
-            android:id="@+id/b2"
-            android:onClick="check"/>
-        <Button
-            android:id="@+id/b3"
-            android:onClick="check"/>
-        <Button
-            android:id="@+id/b4"
-            android:onClick="check"
-            android:layout_marginTop="15dp"/>
-        <Button
-            android:id="@+id/b5"
-            android:onClick="check"
-            android:layout_marginTop="15dp"/>
-        <Button
-            android:id="@+id/b6"
-            android:onClick="check"
-            android:layout_marginTop="15dp"/>
-        <Button
-            android:id="@+id/b7"
-            android:onClick="check"
-            android:layout_marginTop="15dp"/>
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/b8"
+
+        <TextView
+            android:id="@+id/game_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#8BC34A"
+            android:gravity="center"
+            android:text="Tic Tac Toe"
+            android:textColor="#E91E63"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/count_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_marginTop="100dp"
+            android:text="Start Count"/>
+
+
+        <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:onClick="check" />
+            android:layout_marginTop="100dp"
+            android:rowCount="3"
+            android:columnCount="3"
+            >
+            <Button
+                android:id="@+id/b1"
+                android:onClick="check"/>
+            <Button
+                android:id="@+id/b2"
+                android:onClick="check"/>
+            <Button
+                android:id="@+id/b3"
+                android:onClick="check"/>
+            <Button
+                android:id="@+id/b4"
+                android:onClick="check"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/b5"
+                android:onClick="check"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/b6"
+                android:onClick="check"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/b7"
+                android:onClick="check"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:onClick="check" />
+            <Button
+                android:id="@+id/b9"
+                android:onClick="check"
+                android:layout_marginTop="15dp"/>
+
+
+        </GridLayout>
+
         <Button
-            android:id="@+id/b9"
-            android:onClick="check"
-            android:layout_marginTop="15dp"/>
+            android:id="@+id/clear_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="right"
+            android:text="Clear Data"/>
+    </LinearLayout>
 
-
-    </GridLayout>
 
 
 </LinearLayout>
